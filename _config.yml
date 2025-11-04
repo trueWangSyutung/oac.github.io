@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "王旭东学术主页"
 description              : "隐私保护与人工智能交叉领域的研究，特别是联邦推荐系统。"
-repository               : "trueWangSyutung/oac.github.io
+repository               : "trueWangSyutung/oac.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
