@@ -1,64 +1,163 @@
----
-permalink: /
-title: "王旭东学术主页"
-excerpt: "隐私保护与人工智能交叉领域研究，特别是联邦推荐系统"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+# Site Settings
+title                    : "王旭东学术主页"
+description              : "隐私保护与人工智能交叉领域的研究，特别是联邦推荐系统。"
+repository               : "trueWangSyutung/oac.github.io
+google_scholar_stats_use_cdn : true
 
-<span class='anchor' id='about-me'></span>
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
-专注于隐私保护与人工智能的交叉领域，特别是联邦推荐系统。致力于研究如何在严格保护用户数据隐私的前提下，通过联邦学习、图神经网络及自然语言处理等技术，构建更精准、更高效的下一代智能推荐系统。
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
-# 研究理念
+# Site Author
+author:
+  name             : "王旭东"
+  avatar           : "images/android-chrome-512x512.png"
+  bio              : "隐私保护与人工智能交叉领域研究者"
+  location         : "中国"
+  employer         :
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&user=eSjpnBwAAAAJ"
+  email            : "wangxudong@example.com
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : # e.g., "github username"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : # e.g., "linkedin username"
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : "https://orcid.org/0009-0000-7453-0395"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "https://x.com/trueWangSyutung"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
-> "学术不是为了功利，开放是学术永恒的核心。"
-> "学校的好坏决定不了人的一辈子，学历歧视终将是死路一条"
 
-# 🔭 研究方向
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-- 隐私保护与人工智能交叉领域
-- 联邦推荐系统
-- 图神经网络在推荐系统中的应用
-- 自然语言处理与推荐系统结合
 
-# 🎓 教育经历
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-- **2023-2026** 硕士研究生，天津理工大学
-- **2019-2023** 学士学位，北京信息科技大学
 
-# 🧠 主要贡献
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
-## UFGraphFR模型
-提出了一种基于用户文本描述特征的图联邦推荐系统。该模型创新性地利用联合嵌入层和Transformer模块，将用户结构化属性转换为隐私保护的文本表示，并构建语义用户关系图，在多个真实数据集上验证了其优越性能。（已投稿arxiv）
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
 
-## FedTLRec框架
-开发了一个融合低秩自适应（LoRA）参数压缩与Transformer智能聚合的联邦推荐框架。该工作显著降低了联邦学习的通信开销，并有效提升了模型在数据异构环境下的推荐精度与鲁棒性。（已被计算机与数字工程录用）
 
-## 开源与可复现性
-所有相关研究的代码均已开源（GitHub: trueWangSyutung），旨在促进学术透明性，推动领域内合作与共同进步。
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# 🚀 未来展望
 
-未来研究将继续深入探索轻量级模型架构、跨平台联邦推荐以及双向语义增强技术，力求在保障用户隐私这一根本原则下，持续提升推荐系统的智能水平与实用价值。
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# 📬 联系方式
 
-欢迎对隐私计算、联邦学习、推荐系统等领域感兴趣的同道与我交流合作。
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
-- 邮箱: wangxudong@example.com
-- GitHub: [trueWangSyutung](https://github.com/trueWangSyutung)
 
-# 📝 相关论文
-
-- **UFGraphFR**: A Graph Federated Recommendation Model Based on User Textual Descriptions (Under review)
-- **FedTLRec**: Federated Recommendation Framework with Low-Rank Adaptation and Transformer-based Aggregation (Accepted by Computer and Digital Engineering)
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
