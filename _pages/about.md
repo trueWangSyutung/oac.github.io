@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "王旭东学术主页"
+excerpt: "隐私保护与人工智能交叉领域研究，特别是联邦推荐系统"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,42 +17,48 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+专注于隐私保护与人工智能的交叉领域，特别是联邦推荐系统。致力于研究如何在严格保护用户数据隐私的前提下，通过联邦学习、图神经网络及自然语言处理等技术，构建更精准、更高效的下一代智能推荐系统。
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+# 研究理念
 
+> "学术不是为了功利，开放是学术永恒的核心。"
+> "学校的好坏决定不了人的一辈子，学历歧视终将是死路一条"
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🔭 研究方向
 
-# 📝 Publications 
+- 隐私保护与人工智能交叉领域
+- 联邦推荐系统
+- 图神经网络在推荐系统中的应用
+- 自然语言处理与推荐系统结合
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 🎓 教育经历
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **2023-2026** 硕士研究生，天津理工大学
+- **2019-2023** 学士学位，北京信息科技大学
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# 🧠 主要贡献
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+## UFGraphFR模型
+提出了一种基于用户文本描述特征的图联邦推荐系统。该模型创新性地利用联合嵌入层和Transformer模块，将用户结构化属性转换为隐私保护的文本表示，并构建语义用户关系图，在多个真实数据集上验证了其优越性能。（已投稿arxiv）
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+## FedTLRec框架
+开发了一个融合低秩自适应（LoRA）参数压缩与Transformer智能聚合的联邦推荐框架。该工作显著降低了联邦学习的通信开销，并有效提升了模型在数据异构环境下的推荐精度与鲁棒性。（已被计算机与数字工程录用）
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## 开源与可复现性
+所有相关研究的代码均已开源（GitHub: trueWangSyutung），旨在促进学术透明性，推动领域内合作与共同进步。
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🚀 未来展望
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+未来研究将继续深入探索轻量级模型架构、跨平台联邦推荐以及双向语义增强技术，力求在保障用户隐私这一根本原则下，持续提升推荐系统的智能水平与实用价值。
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 📬 联系方式
+
+欢迎对隐私计算、联邦学习、推荐系统等领域感兴趣的同道与我交流合作。
+
+- 邮箱: wangxudong@example.com
+- GitHub: [trueWangSyutung](https://github.com/trueWangSyutung)
+
+# 📝 相关论文
+
+- **UFGraphFR**: A Graph Federated Recommendation Model Based on User Textual Descriptions (Under review)
+- **FedTLRec**: Federated Recommendation Framework with Low-Rank Adaptation and Transformer-based Aggregation (Accepted by Computer and Digital Engineering)
